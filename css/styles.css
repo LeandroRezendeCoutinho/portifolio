@@ -1,0 +1,61 @@
+body,
+p,
+h1,
+h2,
+input,
+textarea {
+  margin: 0;
+  font-family: Roboto;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+#navbar {
+  background-color: #ed1e24;
+  color: #fff;
+  padding: 0 15px;
+  height: 60px;
+}
+
+#navbar h2,
+#navbar ul,
+#navbar nav,
+#navbar-list li {
+  display: inline-block;
+}
+
+#navbar h2 {
+  margin: 0;
+  line-height: 60px;
+  margin-left: 55px;
+}
+
+#navbar img {
+  height: 40px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 8px;
+}
+
+#navbar nav {
+  float: right;
+}
+
+#navbar ul {
+  margin-top: 20px;
+}
+
+#navbar li {
+  margin: 0 10px;
+}
+
+#navbar-list li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#navbar-list li a:hover {
+  border-bottom: 1px solid #fff;
+}
