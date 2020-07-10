@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu portifólio</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
+    <header id="navbar">
       <img src="img/Ruby.png" alt="Ruby" />
       <h2>Leandro Rezende</h2>
       <nav>
-        <ul>
+        <ul id="navbar-list">
           <li><a href="#"></a>Sobre</li>
           <li><a href="#"></a>Projetos</li>
           <li><a href="#"></a>Contatos</li>
@@ -19,47 +23,49 @@
       </nav>
     </header>
     <main>
-      <div>
-        <h1>Olá, eu sou Leandro Rezende</h1>
-        <img src="img/Ninja_ruby.png" alt="Ninja Ruby" />
-        <p>O ninja da programação</p>
+      <div id="banner-info">
+        <div id="banner-info">
+          <h1>Olá, eu sou Leandro Rezende</h1>
+          <img src="img/Ninja_ruby.png" alt="Ninja Ruby" />
+          <p>O ninja da programação</p>
+        </div>
       </div>
-      <section>
+      <section id="about-section">
         <h2>Sobre o meu jeito ninja de ser</h2>
         <p>
           Mussum Ipsum, cacilds vidis litro abertis. Em pé sem cair, deitado sem
           dormir, sentado sem cochilar e fazendo pose.
         </p>
       </section>
-      <section>
-        <div>
-          <div>
+      <section id="skills-section">
+        <div class="container">
+          <div class="skills-container">
             <img src="img/weapon1.png" alt="" />
             <h3>Desenvolvimento</h3>
             <p>Minha maior paixão é desenvolver projetos web</p>
-            <p>Lnguagens que utilizo</p>
+            <p class="subtitle">Lnguagens que utilizo</p>
             <p>HTML, CSS, Javascript, Ruby</p>
-            <p>Projetos que posso desenvolver</p>
+            <p class="subtitle">Projetos que posso desenvolver</p>
             <p>E-commerces, Sites institucionais</p>
           </div>
-          <div>
+          <div class="skills-container">
             <img src="img/weapon2.png" alt="" />
             <h3>Criação</h3>
             <p>Atuo também na análise e gerenciamento de projetos</p>
-            <p>Meus conhecimentos</p>
+            <p class="subtitle">Meus conhecimentos</p>
             <p>
               Analise de software, Engenharia de requisitos, Análise de Infra
             </p>
           </div>
-          <div>
+          <div class="skills-container">
             <img src="img/weapon3.png" alt="" />
             <h3>Infraestrutura</h3>
             <p>
               Posso mensurar seus projetos, deixando o projeto mais performático
             </p>
-            <p>Serviços de Cloud:</p>
+            <p class="subtitle">Serviços de Cloud:</p>
             <p>AWS, Google Cloud, Microsoft Azure</p>
-            <p>O que posso fazer:</p>
+            <p class="subtitle">O que posso fazer:</p>
             <p>Clusters, servidores CDN, diminuir tempo de requisição</p>
           </div>
         </div>
@@ -94,7 +100,7 @@
           <textarea name="msg" placeholder="Digite uma mensagem"></textarea>
           <input type="submit" value="Enviar" />
         </form>
-        <p>Deselvolvido por <span>Leandro Rezende</span></p>
+        <p>Deselvolvido por <span class="detail">Leandro Rezende</span></p>
       </footer>
     </main>
   </body>
