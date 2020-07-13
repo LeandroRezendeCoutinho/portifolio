@@ -59,3 +59,36 @@ h2 {
 #navbar-list li a:hover {
   border-bottom: 1px solid #fff;
 }
+
+#main-banner {
+  height: 70vh;
+  background-image: url("../img/bg-projeto.jpg");
+  background-size: cover;
+  padding-top: 15vh;
+}
+
+#banner-info {
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+
+#banner-info img {
+  height: 120px;
+  border-radius: 50%;
+  background-color: #000;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#banner-info p {
+  background-color: red;
+  font-weight: bold;
+  width: 200px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
